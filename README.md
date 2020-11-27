@@ -76,4 +76,4 @@ We also provide a state vector observation (obs['state']) which is composed of l
   <img src="figures/perception.gif" width=60%>
 </div>
 
-
+Credit: gym_carla environment has been forked from [this repository](https://github.com/cjy1992/gym-carla)
