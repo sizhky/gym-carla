@@ -7,8 +7,8 @@ An [OpenAI gym third party environment](https://github.com/openai/gym/blob/maste
 ## Installation
 1. Setup conda environment
 ```
-$ conda create -n env_name python=3.6
-$ conda activate env_name
+$ conda create -n carla-env python=3.7
+$ conda activate carla-env
 ```
 
 2. Clone this git repo in an appropriate folder
@@ -18,8 +18,6 @@ $ git clone https://github.com/sizhky/gym-carla.git
 
 3. Enter the repo root folder and install the packages:
 ```
-$ conda create -n carla-env python=3.7
-$ conda activate carla-env
 $ pip install -r requirements.txt
 $ pip install -e .
 ```
