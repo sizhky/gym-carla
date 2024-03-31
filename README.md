@@ -22,11 +22,10 @@ $ pip install -r requirements.txt
 $ pip install -e .
 ```
 
-4. Download [CARLA](https://github.com/carla-simulator/carla/releases) (at the time of writing this, the latest version was 0.9.15. Adjust the subsequent commands according to your latest version). Extract it to some folder, and add CARLA to ```PYTHONPATH``` environment variable:
+4. Download [CARLA 0.9.6](https://github.com/carla-simulator/carla/releases/tag/0.9.6) Extract it to some folder, and add CARLA to ```PYTHONPATH``` environment variable:
 ```
-$ export PYTHONPATH=$PYTHONPATH:$YourFolder$/CARLA_0.9.15/PythonAPI/carla/dist/carla-0.9.15-py3.7-linux-x86_64.egg
+$ export PYTHONPATH=$PYTHONPATH:$YourFolder$/CARLA_0.9.6/PythonAPI/carla/dist/carla-0.9.6-py3.5-linux-x86_64.egg
 ```
-Notice that the egg is of version py3.7, which means you should create a conda environment of same python version.
 
 ## Usage
 1. Enter the CARLA root folder and launch the CARLA server by:
